@@ -27,4 +27,9 @@
             app:layout_constraintHorizontal_bias="0.501" android:layout_marginBottom="8dp"
             app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintVertical_bias="0.0"
             android:onClick="ClickCadastro"/>
+    <Button
+            android:text="Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" tools:layout_editor_absoluteY="132dp"
+            tools:layout_editor_absoluteX="153dp" android:id="@+id/button3"/>
 </android.support.constraint.ConstraintLayout>
