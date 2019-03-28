@@ -12,7 +12,7 @@
             android:layout_height="731dp" app:srcCompat="@color/colorAccent"
             android:id="@+id/imageView11" app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-    />
+            tools:srcCompat="@color/colorAccent"/>
     <ImageView
             android:layout_width="382dp"
             android:layout_height="349dp" app:srcCompat="@drawable/folhas"
@@ -39,8 +39,7 @@
             app:layout_constraintStart_toStartOf="parent" android:layout_marginLeft="8dp" android:layout_marginEnd="8dp"
             app:layout_constraintEnd_toEndOf="parent" android:layout_marginRight="8dp"
             android:hint="Número do dispositivo: " android:layout_marginBottom="380dp"
-            app:layout_constraintBottom_toBottomOf="parent"
-    />
+            app:layout_constraintBottom_toBottomOf="parent"/>
     <EditText
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
