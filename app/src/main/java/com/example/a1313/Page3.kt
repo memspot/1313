@@ -21,4 +21,14 @@ class Page3 : AppCompatActivity() {
         var intent:Intent=Intent(this, PageUV::class.java)
         startActivity(intent)
     }
+
+    fun ClickDicas (view: View) {
+        var intent:Intent=Intent (this, Dicas::class.java)
+        startActivity(intent)
+    }
+
+    fun ClickConfig (view: View) {
+        var intent:Intent=Intent ( this, Configuracoes::class.java)
+        startActivity(intent)
+    }
 }
