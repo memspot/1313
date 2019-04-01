@@ -76,7 +76,8 @@
             app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintHorizontal_bias="0.498"
             app:layout_constraintVertical_bias="0.331"
             android:onClick="ClickOk" style="@style/Widget.AppCompat.Button.Colored"
-            android:background="@color/colorAccent2"/>
+            android:background="@drawable/buttom_redondo"/>
+
     <ImageView
             android:layout_width="297dp"
             android:layout_height="230dp" app:srcCompat="@drawable/logopetplant"
