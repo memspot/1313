@@ -8,27 +8,11 @@
         tools:context=".Page2">
 
     <ImageView
-            android:layout_width="412dp"
-            android:layout_height="731dp" app:srcCompat="@color/colorAccent"
-            android:id="@+id/imageView11" app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            tools:srcCompat="@color/colorAccent"/>
-    <ImageView
-            android:layout_width="382dp"
-            android:layout_height="349dp" app:srcCompat="@drawable/folhas"
-            android:id="@+id/imageView6" android:layout_marginTop="2dp"
-            app:layout_constraintTop_toBottomOf="@+id/textView2" android:layout_marginLeft="7dp"
-            android:layout_marginStart="7dp" app:layout_constraintStart_toEndOf="@+id/button2"
-            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.0" app:layout_constraintVertical_bias="0.0"/>
-    <ImageView
-            android:layout_width="514dp"
-            android:layout_height="268dp" app:srcCompat="@drawable/folhas"
-            android:id="@+id/imageView10" android:scaleType="fitEnd"
-            app:layout_constraintEnd_toStartOf="@+id/imageView2"
-            app:layout_constraintBottom_toTopOf="@+id/imageView11" app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintStart_toStartOf="parent" app:layout_constraintHorizontal_bias="0.687"
-            app:layout_constraintVertical_bias="0.526"/>
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" app:srcCompat="@drawable/Janela2"
+            android:id="@+id/imageView" app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"/>
     <EditText
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -76,15 +60,6 @@
             app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintHorizontal_bias="0.498"
             app:layout_constraintVertical_bias="0.331"
             android:onClick="ClickOk" style="@style/Widget.AppCompat.Button.Colored"
-            android:background="@drawable/buttom_redondo"/>
+            android:background="@drawable/botao_redondo"/>
 
-    <ImageView
-            android:layout_width="297dp"
-            android:layout_height="230dp" app:srcCompat="@drawable/logopetplant"
-            android:id="@+id/imageView2"
-            app:layout_constraintTop_toTopOf="parent" android:layout_marginTop="89dp"
-            app:layout_constraintEnd_toEndOf="parent" android:layout_marginBottom="13dp"
-            app:layout_constraintBottom_toTopOf="@+id/editText" app:layout_constraintHorizontal_bias="0.462"
-            android:layout_marginLeft="8dp" android:layout_marginStart="8dp"
-            app:layout_constraintStart_toStartOf="parent"/>
 </android.support.constraint.ConstraintLayout>
