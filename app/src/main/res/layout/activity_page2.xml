@@ -8,8 +8,8 @@
         tools:context=".Page2">
 
     <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" app:srcCompat="@drawable/janela2"
+            android:layout_width="418dp"
+            android:layout_height="809dp" app:srcCompat="@drawable/janela2"
             android:id="@+id/imageView" app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"/>
@@ -22,10 +22,9 @@
             android:layout_marginStart="8dp"
             app:layout_constraintStart_toStartOf="parent" android:layout_marginLeft="8dp" android:layout_marginEnd="8dp"
             app:layout_constraintEnd_toEndOf="parent" android:layout_marginRight="8dp"
-            android:hint="Número do dispositivo: " android:layout_marginBottom="380dp"
-            app:layout_constraintBottom_toBottomOf="parent" android:layout_marginTop="8dp"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.956"/>
+            android:hint="Número do dispositivo: " android:layout_marginBottom="332dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+    />
     <EditText
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -35,9 +34,9 @@
             android:layout_marginStart="8dp"
             app:layout_constraintStart_toStartOf="parent" android:layout_marginLeft="8dp" android:layout_marginEnd="8dp"
             app:layout_constraintEnd_toEndOf="parent" android:layout_marginRight="8dp"
-            android:layout_marginTop="8dp" app:layout_constraintTop_toBottomOf="@+id/editText"
+            android:layout_marginTop="5dp" app:layout_constraintTop_toBottomOf="@+id/editText"
             android:hint="Nome da planta: " android:layout_marginBottom="8dp"
-            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintVertical_bias="0.0"/>
+            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintVertical_bias="0.103"/>
     <TextView
             android:text="Tipo da planta: Suculenta"
             android:layout_width="wrap_content"
@@ -49,7 +48,7 @@
             app:layout_constraintEnd_toEndOf="parent" android:layout_marginRight="8dp"
             android:layout_marginBottom="24dp" app:layout_constraintBottom_toBottomOf="parent"
             android:layout_marginTop="8dp"
-            app:layout_constraintTop_toBottomOf="@+id/editText2" app:layout_constraintVertical_bias="0.151"
+            app:layout_constraintTop_toBottomOf="@+id/editText2" app:layout_constraintVertical_bias="0.178"
     />
     <Button
             android:text="Ok"
@@ -60,7 +59,7 @@
             android:layout_marginLeft="8dp" android:layout_marginStart="8dp" app:layout_constraintEnd_toEndOf="parent"
             android:layout_marginEnd="8dp" android:layout_marginRight="8dp" android:layout_marginBottom="8dp"
             app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintHorizontal_bias="0.498"
-            app:layout_constraintVertical_bias="0.331"
+            app:layout_constraintVertical_bias="0.335"
             android:onClick="ClickOk" style="@style/Widget.AppCompat.Button.Colored"
             android:background="@drawable/botao_redondo"/>
 
