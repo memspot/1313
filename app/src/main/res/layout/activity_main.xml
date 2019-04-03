@@ -21,7 +21,7 @@
             android:textSize="18sp"/>
     <ImageView
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" app:srcCompat="@drawable/Janela1"
+            android:layout_height="wrap_content" app:srcCompat="@drawable/janela1"
             android:id="@+id/imageView7" app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintStart_toStartOf="parent" app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"/>
