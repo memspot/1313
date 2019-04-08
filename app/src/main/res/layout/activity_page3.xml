@@ -140,32 +140,26 @@
             app:layout_constraintTop_toTopOf="parent"/>
 
     <TextView
-            android:text="AÇÚCAR | 3 SEMANAS"
-            android:layout_width="wrap_content"
-            android:layout_height="19dp"
-            android:id="@+id/textView"
-            app:layout_constraintTop_toBottomOf="@+id/textView4" app:layout_constraintStart_toStartOf="parent"
-            android:layout_marginLeft="8dp" android:layout_marginStart="8dp"
-            app:layout_constraintEnd_toEndOf="parent"
-            android:layout_marginEnd="8dp" android:layout_marginRight="8dp"
-            app:layout_constraintHorizontal_bias="0.133"
-            android:textColor="@android:color/white"/>
-    <TextView
-            android:text="César Henrique"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/textView4"
-            android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"
+            android:id="@+id/recebeNome"
+            android:layout_width="179dp"
+            android:layout_height="26dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="60dp"
+            android:layout_marginBottom="70dp"
+            android:shadowColor="#707070"
+            android:shadowDx="5"
+            android:shadowDy="5"
+            android:shadowRadius="10"
+            android:text="@string/jogador"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="@+id/botao4"
+            app:layout_constraintEnd_toEndOf="@+id/botao4"
+            app:layout_constraintHorizontal_bias="0.275"
             app:layout_constraintStart_toStartOf="parent"
-            android:layout_marginLeft="50dp"
-            android:layout_marginStart="8dp"
-            app:layout_constraintEnd_toEndOf="parent"
-            android:layout_marginEnd="8dp"
-            android:layout_marginRight="8dp"
-            app:layout_constraintHorizontal_bias="0.142"
-            android:textSize="36sp"
-            android:layout_marginTop="28dp"
-            app:layout_constraintTop_toTopOf="parent" android:textColor="@android:color/white"/>
+            app:layout_constraintTop_toTopOf="@+id/botao4"
+            app:layout_constraintVertical_bias="0.0" android:layout_marginRight="60dp"
+            android:layout_marginLeft="16dp"/>
     <com.sackcentury.shinebuttonlib.ShineButton
             android:layout_width="50dp"
             android:layout_height="50dp"
@@ -177,11 +171,12 @@
             app:allow_random_color="false"
             app:siShape="@drawable/ledi" android:layout_marginTop="28dp"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintStart_toEndOf="@+id/textView4"
-            android:layout_marginStart="8dp" android:layout_marginLeft="8dp" android:layout_marginEnd="8dp"
+            android:layout_marginEnd="8dp"
             app:layout_constraintEnd_toEndOf="parent" android:layout_marginRight="8dp"
             android:layout_marginBottom="8dp" app:layout_constraintBottom_toTopOf="@+id/imageView4"
-            app:layout_constraintVertical_bias="0.0"/>
+            app:layout_constraintVertical_bias="0.139" android:layout_marginStart="8dp"
+            app:layout_constraintStart_toStartOf="@+id/recebeNome" android:layout_marginLeft="8dp"
+            app:layout_constraintHorizontal_bias="0.928"/>
     <ImageView
             android:layout_width="212dp"
             android:layout_height="234dp" app:srcCompat="@drawable/suculenta"
@@ -191,5 +186,6 @@
             android:layout_marginBottom="8dp"
             app:layout_constraintVertical_bias="0.936" app:layout_constraintBottom_toTopOf="@+id/imageView6"
             app:layout_constraintHorizontal_bias="0.497"/>
+
 
 </android.support.constraint.ConstraintLayout>
