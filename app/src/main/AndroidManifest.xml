@@ -2,7 +2,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
           package="com.example.a1313">
 
-
     <uses-feature android:name="android.hardware.bluetooth"/>
 
     <uses-permission android:name="android.permission.BLUETOOTH"/>
@@ -15,21 +14,24 @@
             android:roundIcon="@mipmap/ic_launcher_round"
             android:supportsRtl="true"
             android:theme="@style/AppTheme">
-
+        <activity android:name=".PageDicas">
+        </activity>
+        <activity android:name=".EditarPerfil1">
+        </activity>
+        <activity android:name=".editarPerfil">
+        </activity>
         <activity android:name=".MainActivity">
         </activity>
-        <activity android:name=".Splash_Activity"
-
-
-       android:theme="@style/SplashTheme"
-        android:noHistory="true">
+        <activity
+                android:name=".Splash_Activity"
+                android:noHistory="true"
+                android:theme="@style/SplashTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-
         <activity android:name=".Configuracoes">
         </activity>
         <activity android:name=".Dicas">
@@ -42,8 +44,6 @@
         </activity>
         <activity android:name=".Page2">
         </activity>
-
     </application>
-
 
 </manifest>

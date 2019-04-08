@@ -7,6 +7,13 @@
         android:layout_height="match_parent"
         tools:context=".Configuracoes">
 
+    <ImageView
+            android:layout_width="415dp"
+            android:layout_height="741dp" app:srcCompat="@color/colorAccent"
+            android:id="@+id/imageView12"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="1.0" app:layout_constraintVertical_bias="1.0"/>
     <TextView
             android:text="Configurações"
             android:layout_width="wrap_content"
@@ -18,23 +25,14 @@
             android:layout_marginRight="140dp"
     />
     <TextView
-            android:text="Editar perfil"
-            android:layout_width="wrap_content"
-            android:layout_height="34dp"
-            android:id="@+id/textView8"
-            android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large" android:textSize="18sp"
-            android:layout_marginTop="84dp"
-            app:layout_constraintTop_toBottomOf="@+id/imageView2" android:layout_marginStart="52dp"
-            app:layout_constraintStart_toStartOf="parent" android:layout_marginLeft="52dp"/>
-    <TextView
             android:text="Ativar notificações"
             android:layout_width="wrap_content"
             android:layout_height="34dp"
             android:id="@+id/textView11"
             android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large" android:textSize="18sp"
-            android:layout_marginTop="12dp"
-            app:layout_constraintTop_toBottomOf="@+id/textView8" android:layout_marginStart="52dp"
-            app:layout_constraintStart_toStartOf="parent" android:layout_marginLeft="52dp"/>
+            android:layout_marginStart="64dp"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginLeft="64dp"
+            android:layout_marginTop="20dp" app:layout_constraintTop_toBottomOf="@+id/button6"/>
     <ImageView
             android:layout_width="61dp"
             android:layout_height="64dp" app:srcCompat="@drawable/ic_settings_black_24dp"
@@ -49,9 +47,21 @@
     <Switch
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/switch1" android:layout_marginTop="144dp"
-            app:layout_constraintTop_toBottomOf="@+id/textView5" app:layout_constraintStart_toEndOf="@+id/textView11"
-            android:layout_marginLeft="20dp" android:layout_marginStart="20dp" app:layout_constraintEnd_toEndOf="parent"
-            android:layout_marginEnd="8dp" android:layout_marginRight="8dp"
-            app:layout_constraintHorizontal_bias="0.076"/>
+            android:id="@+id/switch1"
+            android:layout_marginTop="148dp"
+            app:layout_constraintTop_toBottomOf="@+id/textView5" android:layout_marginLeft="27dp"
+            android:layout_marginStart="27dp" app:layout_constraintStart_toEndOf="@+id/textView11"
+            app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp" android:layout_marginRight="8dp"
+            app:layout_constraintHorizontal_bias="0.0"
+            android:switchTextAppearance="@style/TextAppearance.AppCompat.Title" android:textOn="On"
+            android:textOff="Off" android:textColor="@color/colorPrimary" android:checked="false"
+            tools:checked="false"/>
+    <Button
+            android:text="  Editar Perfil  "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/button6" android:layout_marginTop="76dp"
+            app:layout_constraintTop_toBottomOf="@+id/textView5" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginLeft="56dp" android:layout_marginStart="56dp"
+            android:onClick="ClickPerfil" android:background="@color/colorAccent"/>
 </android.support.constraint.ConstraintLayout>
