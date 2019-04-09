@@ -29,7 +29,7 @@ class Page3 : AppCompatActivity() {
     }
 
     fun ClickDicas (view: View) {
-        var intent:Intent=Intent (this, PageDicas::class.java)
+        var intent:Intent=Intent (this, Dicas::class.java)
         startActivity(intent)
     }
 
@@ -37,4 +37,5 @@ class Page3 : AppCompatActivity() {
         var intent:Intent=Intent ( this, Configuracoes::class.java)
         startActivity(intent)
     }
+
 }
