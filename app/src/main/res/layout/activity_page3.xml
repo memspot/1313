@@ -141,10 +141,9 @@
 
     <TextView
             android:id="@+id/recebeNome"
-            android:layout_width="179dp"
-            android:layout_height="26dp"
-            android:layout_marginStart="16dp"
-            android:layout_marginEnd="60dp"
+            android:layout_width="273dp"
+            android:layout_height="106dp"
+            android:layout_marginStart="40dp"
             android:layout_marginBottom="70dp"
             android:shadowColor="#707070"
             android:shadowDx="5"
@@ -152,14 +151,12 @@
             android:shadowRadius="10"
             android:text="@string/jogador"
             android:textColor="@android:color/white"
-            android:textSize="20sp"
+            android:textSize="55sp"
             app:layout_constraintBottom_toBottomOf="@+id/botao4"
-            app:layout_constraintEnd_toEndOf="@+id/botao4"
-            app:layout_constraintHorizontal_bias="0.275"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="@+id/botao4"
-            app:layout_constraintVertical_bias="0.0" android:layout_marginRight="60dp"
-            android:layout_marginLeft="16dp"/>
+            app:layout_constraintVertical_bias="0.0"
+            android:layout_marginLeft="40dp"/>
     <com.sackcentury.shinebuttonlib.ShineButton
             android:layout_width="50dp"
             android:layout_height="50dp"
