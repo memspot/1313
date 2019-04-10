@@ -17,17 +17,6 @@ class Page3 : AppCompatActivity() {
         recebeNome.text=i.getStringExtra("nomeJogador")
     }
 
-    fun ClickUmidade (view: View){
-        var intent:Intent=Intent (this, PageUmidade::class.java)
-        startActivity(intent)
-
-    }
-
-    fun ClickUV (view: View){
-        var intent:Intent=Intent(this, PageUV::class.java)
-        startActivity(intent)
-    }
-
     fun ClickDicas (view: View) {
         var intent:Intent=Intent (this, Dicas::class.java)
         startActivity(intent)
@@ -37,5 +26,4 @@ class Page3 : AppCompatActivity() {
         var intent:Intent=Intent ( this, Configuracoes::class.java)
         startActivity(intent)
     }
-
 }
