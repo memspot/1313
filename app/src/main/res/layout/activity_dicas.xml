@@ -34,37 +34,40 @@
             android:layout_marginTop="80dp" app:layout_constraintTop_toBottomOf="@+id/textView3"
             android:layout_marginStart="60dp" app:layout_constraintStart_toStartOf="parent"
             android:layout_marginLeft="60dp" android:layout_marginEnd="8dp" app:layout_constraintEnd_toEndOf="parent"
-            android:layout_marginRight="8dp" app:layout_constraintHorizontal_bias="0.0"/>
-        <TextView
-                android:layout_width="297dp"
-                android:layout_height="92dp"
-                android:id="@+id/textView15"
-                android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large" android:textSize="18sp"
-                android:text="Se for utilizar um vaso sem furos, é bom que sejam colocadas pedrinhas, antes da planta, para que ela não apodreça."
-                android:layout_marginTop="12dp" app:layout_constraintTop_toBottomOf="@+id/textView14"
-                android:layout_marginStart="8dp" app:layout_constraintStart_toStartOf="parent"
-                android:layout_marginLeft="8dp" android:layout_marginEnd="8dp" app:layout_constraintEnd_toEndOf="parent"
-                android:layout_marginRight="8dp" app:layout_constraintHorizontal_bias="0.53"/>
-        <TextView
-                android:layout_width="310dp"
-                android:layout_height="108dp"
-                android:id="@+id/textView16"
-                android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large" android:textSize="18sp"
-                android:text="A adubação pode ser feita com húmos de minhoca ou outros compostos orgânicos e fertilizantes podem ser colocados em quantidade pequena, uma vez por semana."
-                android:layout_marginTop="12dp" app:layout_constraintTop_toBottomOf="@+id/textView15"
-                android:layout_marginStart="8dp" app:layout_constraintStart_toStartOf="parent"
-                android:layout_marginLeft="8dp" android:layout_marginEnd="8dp" app:layout_constraintEnd_toEndOf="parent"
-                android:layout_marginRight="8dp" app:layout_constraintHorizontal_bias="0.611"/>
-        <TextView
-                android:layout_width="297dp"
-                android:layout_height="92dp"
-                android:id="@+id/textView20"
-                android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large" android:textSize="18sp"
-                android:text="Habilite as notificações para receber mensagens da sua plantinha."
-                android:layout_marginStart="8dp" app:layout_constraintStart_toStartOf="parent"
-                android:layout_marginLeft="8dp" android:layout_marginEnd="8dp" app:layout_constraintEnd_toEndOf="parent"
-                android:layout_marginRight="8dp" android:layout_marginTop="8dp"
-                app:layout_constraintTop_toBottomOf="@+id/textView16"/>
+            android:layout_marginRight="8dp" app:layout_constraintHorizontal_bias="0.0"
+            app:fontFamily="sans-serif-black"/>
+    <TextView
+            android:layout_width="297dp"
+            android:layout_height="92dp"
+            android:id="@+id/textView15"
+            android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large" android:textSize="18sp"
+            android:text="Se for utilizar um vaso sem furos, é bom que sejam colocadas pedrinhas, antes da planta, para que ela não apodreça."
+            android:layout_marginTop="12dp" app:layout_constraintTop_toBottomOf="@+id/textView14"
+            android:layout_marginStart="8dp" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginLeft="8dp" android:layout_marginEnd="8dp" app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginRight="8dp" app:layout_constraintHorizontal_bias="0.53"
+            app:fontFamily="sans-serif-black"/>
+    <TextView
+            android:layout_width="310dp"
+            android:layout_height="108dp"
+            android:id="@+id/textView16"
+            android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large" android:textSize="18sp"
+            android:text="A adubação pode ser feita com húmos de minhoca ou outros compostos orgânicos e fertilizantes podem ser colocados em quantidade pequena, uma vez por semana."
+            android:layout_marginTop="12dp" app:layout_constraintTop_toBottomOf="@+id/textView15"
+            android:layout_marginStart="8dp" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginLeft="8dp" android:layout_marginEnd="8dp" app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginRight="8dp" app:layout_constraintHorizontal_bias="0.611"
+            app:fontFamily="sans-serif-black"/>
+    <TextView
+            android:layout_width="297dp"
+            android:layout_height="92dp"
+            android:id="@+id/textView20"
+            android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large" android:textSize="18sp"
+            android:text="Habilite as notificações para receber mensagens da sua plantinha."
+            android:layout_marginStart="8dp" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginLeft="8dp" android:layout_marginEnd="8dp" app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginRight="8dp" android:layout_marginTop="16dp"
+            app:layout_constraintTop_toBottomOf="@+id/textView16" app:fontFamily="sans-serif-black"/>
     <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" app:srcCompat="@drawable/idea"

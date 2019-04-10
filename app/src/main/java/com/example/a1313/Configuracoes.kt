@@ -11,9 +11,4 @@ class Configuracoes : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_configuracoes)
     }
-
-    fun ClickPerfil (view: View) {
-        var intent:Intent=Intent ( this, EditarPerfil1::class.java)
-        startActivity(intent)
-    }
 }

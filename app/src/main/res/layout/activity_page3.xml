@@ -117,7 +117,7 @@
             android:layout_marginLeft="32dp" android:layout_marginTop="32dp" app:layout_constraintTop_toTopOf="parent"
             android:layout_marginEnd="8dp" app:layout_constraintEnd_toEndOf="parent" android:layout_marginRight="8dp"
             app:layout_constraintHorizontal_bias="0.02" android:layout_marginBottom="29dp"
-            app:layout_constraintBottom_toTopOf="@+id/imageView11" app:fontFamily="sans-serif-condensed-medium"/>
+            app:layout_constraintBottom_toTopOf="@+id/imageView11" app:fontFamily="sans-serif-black"/>
     <com.sackcentury.shinebuttonlib.ShineButton
             android:layout_width="50dp"
             android:layout_height="50dp"
